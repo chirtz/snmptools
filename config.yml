@@ -1,0 +1,20 @@
+---
+hosts:
+  - printer-1
+  - 192.168.1.10
+
+rules:
+
+  - name: Check toner empty
+    match:
+      type: [toner, fuser, inkCartridge]
+    stop: false
+    threshold: 1
+    severity: 2
+
+  - name: Check toner low
+    match:
+      type: [toner, fuser]
+    stop: true
+    threshold: 10
+    severity: 1

@@ -1,4 +1,6 @@
 # snmpcheck
+## Description 
+snmpcheck is a set of tools to poll printer information using the SNMP protocol.
 
 ## Requirements
 - Python 3
@@ -70,3 +72,6 @@ Host: myprinter
 [CRIT] (Check empty) => Fuser Kit HP 110V-CE514A, 220V-CE515A
 [  OK] (Check low) => Fuser Kit HP 110V-CE514A, 220V-CE515A
  ```
+## Further work
+The snmplib module provides the possibility to output information in JSON format, which could be used for further processing or for visualization, e.g. in a monitoring web interface:
+![alt text](https://github.com/chirtz/snmpcheck/raw/master/screenshot.png)

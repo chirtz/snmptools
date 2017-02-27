@@ -1,4 +1,4 @@
-# snmpcheck
+# snmptool
 ## Description 
 snmpcheck is a set of tools to poll printer information using the SNMP protocol.
 

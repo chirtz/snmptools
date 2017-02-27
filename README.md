@@ -1,6 +1,6 @@
-# snmptool
+# snmptools
 ## Description 
-snmpcheck is a set of tools to poll printer information using the SNMP protocol.
+snmptools is a set of tools to poll printer information using the SNMP protocol.
 
 ## Requirements
 - Python 3

@@ -28,7 +28,7 @@ optional arguments:
 
 ### Examples
 - Show all device info
-   ```
+```
 $ printercheck.py -H myprinter -ist
 
 Name    : myprinter
@@ -57,7 +57,7 @@ Descr   : HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD149,EEPROM JDI23e70
 ```
 
 - Check if rules are violated
- ```
+```
 $ printercheck.py -H myprinter -r -c config.yml 
 ------------------------------
 Host: myprinter
@@ -71,7 +71,7 @@ Host: myprinter
 [  OK] (Check low) => Yellow Cartridge 651A HP CE342A
 [CRIT] (Check empty) => Fuser Kit HP 110V-CE514A, 220V-CE515A
 [  OK] (Check low) => Fuser Kit HP 110V-CE514A, 220V-CE515A
- ```
+```
 ## Further work
 The snmplib module provides the possibility to output information in JSON format, which could be used for further processing or for visualization, e.g. in a monitoring web interface:
 ![alt text](https://github.com/chirtz/snmpcheck/raw/master/screenshot.png)
